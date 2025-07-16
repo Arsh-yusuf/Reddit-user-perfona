@@ -1,0 +1,4 @@
+praw
+cohere
+python-dotenv
+tqdm
