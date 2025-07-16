@@ -17,12 +17,12 @@ This Python tool extracts posts and comments from any Reddit user, analyzes them
 
 ### 🔧 Setup Instructions
         ✅ 1. Clone the Repo or Download Code
-        git clone https://github.com/yourusername/reddit-user-persona.git
-        cd reddit-user-persona
+            git clone https://github.com/yourusername/reddit-user-persona.git
+            cd reddit-user-persona
         
         ✅ 2. Install Required Libraries
-        Make sure you're using Python 3.8+. Then install dependencies:
-        pip install -r requirements.txt
+           Make sure you're using Python 3.8+. Then install dependencies:
+           pip install -r requirements.txt
 
         ✅ 3. Get Your API Keys
         🔹 Reddit API (for scraping)
@@ -47,14 +47,14 @@ This Python tool extracts posts and comments from any Reddit user, analyzes them
         
             Copy the key (you’ll use it in .env)
 
-### ✅ 4. Add Keys to .env File
-Create a .env file in your root directory:
-
-    REDDIT_CLIENT_ID=your_reddit_client_id
-    REDDIT_CLIENT_SECRET=your_reddit_client_secret
-    COHERE_API_KEY=your_cohere_api_key
-
-🚀 How to Run the Script
+         ✅ 4. Add Keys to .env File
+          Create a .env file in your root directory:
+        
+            REDDIT_CLIENT_ID=your_reddit_client_id
+            REDDIT_CLIENT_SECRET=your_reddit_client_secret
+            COHERE_API_KEY=your_cohere_api_key
+        
+### 🚀 How to Run the Script
     Run the main script using:
 
     python main.py
