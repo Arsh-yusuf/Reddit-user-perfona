@@ -16,15 +16,15 @@ This Python tool extracts posts and comments from any Reddit user, analyzes them
 
 
 ### 🔧 Setup Instructions
-✅ 1. Clone the Repo or Download Code
+        ✅ 1. Clone the Repo or Download Code
         git clone https://github.com/yourusername/reddit-user-persona.git
         cd reddit-user-persona
-
-✅ 2. Install Required Libraries
+        
+        ✅ 2. Install Required Libraries
         Make sure you're using Python 3.8+. Then install dependencies:
         pip install -r requirements.txt
 
-✅ 3. Get Your API Keys
+        ✅ 3. Get Your API Keys
         🔹 Reddit API (for scraping)
             Visit: https://www.reddit.com/prefs/apps
         
