@@ -21,31 +21,31 @@ This Python tool extracts posts and comments from any Reddit user, analyzes them
         cd reddit-user-persona
 
 ✅ 2. Install Required Libraries
-Make sure you're using Python 3.8+. Then install dependencies:
+        Make sure you're using Python 3.8+. Then install dependencies:
         pip install -r requirements.txt
 
 ✅ 3. Get Your API Keys
-🔹 Reddit API (for scraping)
-    Visit: https://www.reddit.com/prefs/apps
-
-    Click “Create another app…”
-
-    App Type: script
-
-    Name: anything (e.g., personaBot)
-
-    Redirect URI: http://localhost:8080
-
-    After saving:
-
-    client_id = string under the app name
-
-    client_secret = "secret" value shown below
-
-    🔹 Cohere API (for LLM)
-    Visit: https://dashboard.cohere.com/api-keys
-
-    Copy the key (you’ll use it in .env)
+        🔹 Reddit API (for scraping)
+            Visit: https://www.reddit.com/prefs/apps
+        
+            Click “Create another app…”
+        
+            App Type: script
+        
+            Name: anything (e.g., personaBot)
+        
+            Redirect URI: http://localhost:8080
+        
+            After saving:
+        
+            client_id = string under the app name
+        
+            client_secret = "secret" value shown below
+        
+            🔹 Cohere API (for LLM)
+            Visit: https://dashboard.cohere.com/api-keys
+        
+            Copy the key (you’ll use it in .env)
 
 ### ✅ 4. Add Keys to .env File
 Create a .env file in your root directory:
