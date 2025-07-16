@@ -17,8 +17,8 @@ This Python tool extracts posts and comments from any Reddit user, analyzes them
 
 ### 🔧 Setup Instructions
         ✅ 1. Clone the Repo or Download Code
-            git clone https://github.com/yourusername/reddit-user-persona.git
-            cd reddit-user-persona
+            git clone (https://github.com/Arsh-yusuf/Reddit-user-perfona.git)
+            cd Reddit-user-persona
         
         ✅ 2. Install Required Libraries
            Make sure you're using Python 3.8+. Then install dependencies:
