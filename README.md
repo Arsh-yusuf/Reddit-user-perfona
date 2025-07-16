@@ -1,21 +1,21 @@
-🧠 Reddit User Persona Generator
+### 🧠 Reddit User Persona Generator
 
 This Python tool extracts posts and comments from any Reddit user, analyzes them using Cohere's AI, and generates a structured User Persona complete with citations to the Reddit sources used.
 
 🧾 Example persona: Name, Age, Occupation, Location, Traits, Goals, Frustrations, Behavior, and more — each supported by quotes or post links.
 
-📁 Project Structure
+### 📁 Project Structure
 
-reddit_user_persona/
-├── .env                     # Store your API keys
-├── main.py                 # Main script to run
-├── utils.py                # Reddit scraping logic
-├── persona_formatter.py    # Formats output as structured persona
-├── requirements.txt        # Install dependencies
-└── README.md               # This file
+        reddit_user_persona/
+        ├── .env                     # Store your API keys
+        ├── main.py                 # Main script to run
+        ├── utils.py                # Reddit scraping logic
+        ├── persona_formatter.py    # Formats output as structured persona
+        ├── requirements.txt        # Install dependencies
+        └── README.md               # This file
 
 
-🔧 Setup Instructions
+### 🔧 Setup Instructions
 ✅ 1. Clone the Repo or Download Code
         git clone https://github.com/yourusername/reddit-user-persona.git
         cd reddit-user-persona
@@ -47,7 +47,7 @@ Make sure you're using Python 3.8+. Then install dependencies:
 
     Copy the key (you’ll use it in .env)
 
-✅ 4. Add Keys to .env File
+### ✅ 4. Add Keys to .env File
 Create a .env file in your root directory:
 
     REDDIT_CLIENT_ID=your_reddit_client_id
